@@ -1,12 +1,16 @@
-Nouns:
+# Nouns:
 
-Name: Players
-State: 
-    1. Lives
-Behavior:
-    1. Decrease Life
+## Name: Players
+### Description: 
+Contains the information about players such has number of lives.
+    State: 
+        1. Lives
+    Behavior:
+        1. Decrease Life
 
-Name: Question
+## Name: Question
+### Description 
+Contains the scope to create and get the questions and evaluate them.
 State:
     1. Answer
 Behavior:
@@ -15,7 +19,9 @@ Behavior:
     3. Check if the answer being passed is 
     correct
 
-Name: Game 
+## Name: Game 
+### Description
+Contains information about the players including the their staus (active/in-active). This noun is also capable of switching turns between players, starting and ending the game, taking input/answer from the user and deciding the winner.
 State: 
     1. All Players
     2. Active Player
